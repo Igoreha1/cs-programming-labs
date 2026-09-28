@@ -1,6 +1,6 @@
-destination = float(input())
-razhod = float(input())
-price = float(input())
+destination = float(input("Введите расстояние: "))
+razhod = float(input("Введите расход топлива: "))
+price = float(input("Введите цену топлива: "))
 
 fuel = destination * razhod / 100
 cost = fuel * price
